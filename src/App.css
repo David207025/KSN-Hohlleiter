@@ -1,0 +1,24 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+#root {
+    width: 100vw;
+    height: 100vh;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    font-family: 'Black Ops One', system-ui, sans-serif !important;
+    text-transform: none; /* Prevents Reveal from auto-capitalizing everything if you don't want it */
+}
+
+/* Explicitly force KaTeX to use its loaded structural webfonts */
+.reveal .katex,
+.reveal .katex * {
+    font-family: KaTeX_Main, 'Times New Roman', serif !important;
+    text-transform: none !important;
+}
