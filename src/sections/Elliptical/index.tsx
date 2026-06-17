@@ -126,8 +126,12 @@ export const Elliptical = () => {
       <section
         key={"6-6"}
       >
-        <iframe src="https://scispace.com/pdf/tables-of-values-of-the-modified-mathieu-functions-2vatb13oai.pdf" width={"1000"} height={"600"}/>
-      </section>
+        <embed
+          src="/tables-mathieu.pdf"
+          type="application/pdf"
+          width="1000"
+          height="600"
+        />      </section>
     </section>
   );
 };

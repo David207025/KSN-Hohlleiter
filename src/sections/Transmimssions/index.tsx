@@ -1,5 +1,4 @@
 import {Typography} from "@mui/material";
-import * as React from "react";
 
 import te_example from "../../assets/TE_Example.jpeg"
 import tm_example from "../../assets/TM_Example.png"

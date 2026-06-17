@@ -1,5 +1,4 @@
 import {Card, Typography} from "@mui/material";
-import * as React from "react";
 import {Connector} from "../../components/connector.tsx";
 import bsp1 from "../../assets/images/bsp1.png"
 import bsp2 from "../../assets/images/bsp2.png"
