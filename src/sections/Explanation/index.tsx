@@ -4,6 +4,8 @@ import bsp1 from "../../assets/images/bsp1.png"
 import bsp2 from "../../assets/images/bsp2.png"
 import bsp3 from "../../assets/images/bsp3.png"
 
+
+
 export const Explanation = () => {
 
 
@@ -185,6 +187,8 @@ export const Explanation = () => {
           Die elektromagnetischen Wellen innerhalb des Hohlleiters begrenzen
         </Typography>
       </section>
+
+
     </section>
   )
 }
