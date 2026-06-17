@@ -1,4 +1,5 @@
 import {Typography, Box} from "@mui/material";
+import mathieuPdfUrl from "../../assets/tables-mathieu.pdf";
 
 export const Elliptical = () => {
   return (
@@ -127,11 +128,12 @@ export const Elliptical = () => {
         key={"6-6"}
       >
         <embed
-          src="assets/tables-mathieu.pdf"
+          src={mathieuPdfUrl}
           type="application/pdf"
           width="1000"
           height="600"
-        />      </section>
+        />
+      </section>
     </section>
   );
 };
