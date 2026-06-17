@@ -9,5 +9,6 @@ export default defineConfig({
     alias: {
       'reveal.js/dist/theme': path.resolve(__dirname, 'node_modules/reveal.js/dist/theme')
     }
-  }
+  },
+  base: "/KSN-Hohlleiter"
 })
