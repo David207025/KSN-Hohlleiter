@@ -127,7 +127,7 @@ export const Elliptical = () => {
         key={"6-6"}
       >
         <embed
-          src="/tables-mathieu.pdf"
+          src="assets/tables-mathieu.pdf"
           type="application/pdf"
           width="1000"
           height="600"
