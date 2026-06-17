@@ -1,5 +1,6 @@
 import {Typography, Box} from "@mui/material";
 import mathieuPdfUrl from "../../assets/tables-mathieu.pdf";
+import bessel from "../../assets/bessel.png";
 
 export const Elliptical = () => {
   return (
@@ -134,6 +135,44 @@ export const Elliptical = () => {
           height="600"
         />
       </section>
+      <section
+        key={"6-7"}
+      >
+        <Typography variant="h4" component="h4" gutterBottom>
+          Umwandlung von elliptischen Hohlleitern in Rundhohlleitern
+        </Typography>
+
+        <Typography variant={"body1"}>
+
+          Wir betrachten: <br/>
+          {'\\[ Ce_m(q, \\cosh\\xi)*ce_m(q, cos(\\eta))\\]'} <br/>
+
+          Da bei einer Umwandlung einer Ellipse in einen Kreis {'$a \\to 0$'} geht, so gilt: <br/>
+          {'\\[ q \\to 0 \\]'} <br/>
+          Dadurch verschmelzen {'$q$ und $cosh(\\xi)$ zu $k*r$'} und {'$ce_m(q, cos(\\eta))$'} wird zu {'$cos(m*\\eta)$'}
+          {'\\[ Ce_m(q, \\cosh\\xi)*ce_m(q, cos(\\eta)) \\to J_m\\left(k*r\\right)*cos(m*\\eta)\\]'} <br/>
+          {'$m$'} beschreibt das Grad der Besselfunktion, {'$n$'} beschreibt die Nullstelle, die sich am Rand befindet.
+          {'$n$'} wird über die Bedingung {'$J_m(x_{mn})=0$'} wobei {'$x_{mn} = k_c*R$'} <br/>
+        </Typography>
+
+      </section>
+      <section
+        key={"6-8"}
+      >
+        <img style={{height: "15cm"}} src={bessel}/>
+      </section>
+      <section
+        key={"6-9"}
+      >
+        <Typography variant="h4" component="h4" gutterBottom>
+          Bsp. TE10
+        </Typography>
+        {'\\[ J_1(x_{10}) = 0 \\]'}
+        {'\\[ J_1(k*R) = 0 \\]'}
+        Aus dem Diagramm ist {'$x_{10} \\approx 3.9$'}. Daraus kann man mit einem ausgewählten Radius (beispielsweise 10mm) die Grenzfrequenz über die Formel {'$x_{10}=k_c*R$'} berechnen.
+
+      </section>
+
     </section>
   );
 };
