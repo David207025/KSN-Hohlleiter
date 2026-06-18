@@ -28,7 +28,7 @@ function App() {
     deckRef.current = new Reveal(deckDivRef.current!, {
       transition: "slide",
       scrollProgress: true,
-      controls: "speaker-only",
+      controls: true,
       hash: true,
       progress: true,
       scrollLayout: "compact",
