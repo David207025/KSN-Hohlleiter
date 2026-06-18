@@ -11,7 +11,28 @@ export const Elliptical = () => {
         </Typography>
       </section>
 
-      <section key={"6-1"}>
+      <section
+        key={"6-1"}
+      >
+        <Typography variant="h4" component="div" gutterBottom>
+          Die Bedeutung von {'$m$'} und {'$n$'} bei den elliptischen Hohlleitern
+        </Typography>
+
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "start",
+            justifyContent: "start",
+            width: "100%",
+          }}
+        >
+          <span>{'$m$'}... Anzahl der Halbwellen entlang der Winkelkoordinate</span> <br/>
+          <span>{'$n$'}... Anzahl der Nullstellen entlang der radialen Koordinate</span><br/>
+        </div>
+      </section>
+
+      <section key={"6-2"}>
         <Typography variant="h4" component="h4" gutterBottom>
           Formeln für Mathieu-Moden
         </Typography>
@@ -36,7 +57,7 @@ export const Elliptical = () => {
       </section>
 
       <section
-        key={"6-2"}
+        key={"6-3"}
       >
         <Typography variant="h4" component="h4" gutterBottom>
           Formeln für Mathieu-Moden
@@ -72,16 +93,17 @@ export const Elliptical = () => {
 
       </section>
       <section
-        key={"6-3"}
+        key={"6-4"}
       >
         <Typography variant="h4" component="h4" gutterBottom>
           Prinzip der Dimensionierung
         </Typography>
 
 
-        <Typography variant="body1" fontSize={"1.4rem"} >Winkelkomponente wird bei manchen Moden nie 0</Typography>
-        <Typography variant="body1" fontSize={"1.4rem"} >Amplitude wird bei der Grenzfrequenz am Rand des Leiters 0</Typography>
-        <Typography variant="body1" fontSize={"1.4rem"} >Daher muss gelten:</Typography>
+        <Typography variant="body1" fontSize={"1.4rem"}>Winkelkomponente wird bei manchen Moden nie 0</Typography>
+        <Typography variant="body1" fontSize={"1.4rem"}>Amplitude wird bei der Grenzfrequenz am Rand des Leiters
+          0</Typography>
+        <Typography variant="body1" fontSize={"1.4rem"}>Daher muss gelten:</Typography>
 
 
         <Typography variant="body1" fontWeight="bold" fontSize={"1.4rem"}>
@@ -93,7 +115,7 @@ export const Elliptical = () => {
       </section>
 
       <section
-        key={"6-4"}
+        key={"6-5"}
       >
         <Typography variant="h4" component="div" gutterBottom>
           Berechnung von {'$cosh(\\xi)$'} und {'$a$'}
@@ -121,12 +143,12 @@ export const Elliptical = () => {
 
       </section>
       <section
-        key={"6-5"}
+        key={"6-6"}
       >
         <iframe src="https://www.desmos.com/calculator/3pbqcoappw" width="1000" height="600"></iframe>
       </section>
       <section
-        key={"6-6"}
+        key={"6-7"}
       >
         <embed
           src={mathieuPdfUrl}
@@ -136,7 +158,7 @@ export const Elliptical = () => {
         />
       </section>
       <section
-        key={"6-7"}
+        key={"6-8"}
       >
         <Typography variant="h4" component="h4" gutterBottom>
           Umwandlung von elliptischen Hohlleitern in Rundhohlleitern
@@ -149,7 +171,8 @@ export const Elliptical = () => {
 
           Da bei einer Umwandlung einer Ellipse in einen Kreis {'$a \\to 0$'} geht, so gilt: <br/>
           {'\\[ q \\to 0 \\]'} <br/>
-          Dadurch verschmelzen {'$q$ und $cosh(\\xi)$ zu $k*r$'} und {'$ce_m(q, cos(\\eta))$'} wird zu {'$cos(m*\\eta)$'}
+          Dadurch verschmelzen {'$q$ und $cosh(\\xi)$ zu $k*r$'} und {'$ce_m(q, cos(\\eta))$'} wird
+          zu {'$cos(m*\\eta)$'}
           {'\\[ Ce_m(q, \\cosh\\xi)*ce_m(q, cos(\\eta)) \\to J_m\\left(k*r\\right)*cos(m*\\eta)\\]'} <br/>
           {'$m$'} beschreibt das Grad der Besselfunktion, {'$n$'} beschreibt die Nullstelle, die sich am Rand befindet.
           {'$n$'} wird über die Bedingung {'$J_m(x_{mn})=0$'} wobei {'$x_{mn} = k_c*R$'} <br/>
@@ -157,7 +180,7 @@ export const Elliptical = () => {
 
       </section>
       <section
-        key={"6-8"}
+        key={"6-9"}
       >
         <img style={{height: "15cm"}} src={bessel}/>
       </section>
@@ -169,7 +192,8 @@ export const Elliptical = () => {
         </Typography>
         {'\\[ J_1(x_{10}) = 0 \\]'}
         {'\\[ J_1(k*R) = 0 \\]'}
-        Aus dem Diagramm ist {'$x_{10} \\approx 3.9$'}. Daraus kann man mit einem ausgewählten Radius (beispielsweise 10mm) die Grenzfrequenz über die Formel {'$x_{10}=k_c*R$'} berechnen.
+        Aus dem Diagramm ist {'$x_{10} \\approx 3.9$'}. Daraus kann man mit einem ausgewählten Radius (beispielsweise
+        10mm) die Grenzfrequenz über die Formel {'$x_{10}=k_c*R$'} berechnen.
 
       </section>
 
