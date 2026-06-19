@@ -188,12 +188,48 @@ export const Elliptical = () => {
         key={"6-9"}
       >
         <Typography variant="h4" component="h4" gutterBottom>
-          Bsp. TE10
+          Bsp. {'$TM10$'}
         </Typography>
         {'\\[ J_1(x_{10}) = 0 \\]'}
         {'\\[ J_1(k*R) = 0 \\]'}
         Aus dem Diagramm ist {'$x_{10} \\approx 3.9$'}. Daraus kann man mit einem ausgewählten Radius (beispielsweise
         10mm) die Grenzfrequenz über die Formel {'$x_{10}=k_c*R$'} berechnen.
+
+      </section>
+
+      <section
+        key={"6-10"}
+      >
+        <Typography variant="h4" component="h4" gutterBottom>
+          Bsp. {'$TE23$'}
+        </Typography>
+        {'\\[ J_2(x_{23}) = 0 \\]'}
+        {'\\[ J_2(k*R) = 0 \\]'}
+        {'$x_{23} \\approx 12$'}
+
+      </section>
+
+      <section
+        key={"6-11"}
+      >
+        <Typography variant="h4" component="h4" gutterBottom>
+          Bsp. {'$TM10$'}
+        </Typography>
+        {"\\[ J_1'(x_{10}) = 0 \\]"}
+        {"\\[ J_1'(k*R) = 0 \\]"}
+        {'$x_{10} \\approx 3.75$'}
+
+      </section>
+
+      <section
+        key={"6-11"}
+      >
+        <Typography variant="h4" component="h4" gutterBottom>
+          Bsp. {'$TM23$'}
+        </Typography>
+        {"\\[ J_2'(x_{23}) = 0 \\]"}
+        {"\\[ J_2'(k*R) = 0 \\]"}
+        {'$x_{23} \\approx 3.75$'}
 
       </section>
 
