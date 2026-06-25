@@ -22,7 +22,7 @@ d_z  = 0.0001;
 
 % Modus-Auswahl und Typ
 m = 1;
-n = 1;
+n = 0;
 is_TM = false;
 
 E0 = 100;

@@ -188,7 +188,22 @@ export const Explanation = () => {
         </Typography>
       </section>
 
-
+      <section
+        key={"2-4"}
+      >
+        <Typography variant="h3" component="h3">
+          Funktionsweise von Antennen
+        </Typography>
+        <Typography variant="h4" component="div">
+          Elektrische Felder entsprechen dem Potenzialunterschied zwischen zwei Punkten
+        </Typography>
+        <Typography variant="h4" component="div">
+          Diese Felder verbreiten sich mit der Lichtgeschwindigkeit {'$c$'}
+        </Typography>
+        <Typography variant="h4" component="div">
+          D.h., dass sich eine Änderung in diesen Feldern auch mit {'$c$'} verbreiten.
+        </Typography>
+      </section>
     </section>
   )
 }
