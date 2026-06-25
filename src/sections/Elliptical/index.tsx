@@ -217,7 +217,7 @@ export const Elliptical = () => {
         </Typography>
         {"\\[ J_1'(x_{10}) = 0 \\]"}
         {"\\[ J_1'(k*R) = 0 \\]"}
-        {'$x_{10} \\approx 3.75$'}
+        {'$x_{10} \\approx 1.84$'}
 
       </section>
 
